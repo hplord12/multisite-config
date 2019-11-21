@@ -778,6 +778,8 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $config_directories['sync'] = '../config/sync';
+
+
 $databases['default']['default'] = array (
   'database' => 'multisite',
   'username' => 'root',
@@ -788,3 +790,7 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+
+
+//$config['config_split.config_split.child1']['status'] = TRUE;
+//$config['config_split.config_split.child2']['status'] = TRUE;

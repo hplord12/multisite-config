@@ -787,4 +787,10 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$config_directories['sync'] = 'sites/child1/files/child1/sync';
+//$config_directories['sync'] = 'sites/child1/files/child1/sync';
+$config_directories['sync'] = '../config/sync';
+$config_directories['child1'] = '../config/child1';
+$config['config_split.config_split.child1']['folder'] = '../config/child1';
+
+//$config['config_split.config_split.child1']['status'] = TRUE;
+//$config['config_split.config_split.child2']['status'] = FALSE;

@@ -57,3 +57,6 @@
  */
 $sites['child1.com'] = 'child1';
 $sites['child2.com'] = 'child2';
+
+//drush config-set "system.site" uuid "1f9c2240-0ede-48ca-af61-b96fd286abbe"
+//drush config-get "system.site" uuid  
